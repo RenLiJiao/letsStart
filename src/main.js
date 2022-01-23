@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-
+Vue.config.prototype.$roter = router
 new Vue({
   router,
   store,
